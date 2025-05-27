@@ -1,4 +1,4 @@
-let args = 2
+let args = 1
 
 if (args <= 0){
   console.log('No Argument');

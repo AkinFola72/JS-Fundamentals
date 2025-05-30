@@ -1,7 +1,7 @@
-let args = 0
-if (args <= 1){
-    console.log('HBTN');
-}else if (args > 2){
-    console.log('HBTN cool');
+const arg = process.argv[2];
+
+if (arg === undefined) {
+  console.log('No argument');
+} else {
+  console.log(arg);
 }
-else (console.log('No argument'))
